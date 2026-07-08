@@ -10,8 +10,9 @@
   ],
   "sites": [
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "1",
       "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
@@ -22,8 +23,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "2",
       "api": "http://cj.lziapi.com/api.php/provide/vod/",
@@ -34,8 +36,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "3",
       "api": "https://api.apibdzy.com/api.php/provide/vod/",
@@ -46,8 +49,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "4",
       "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
@@ -58,8 +62,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "5",
       "api": "https://api.guangsuapi.com/api.php/provide/vod/",
@@ -70,8 +75,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "6",
       "api": "https://jyzyapi.com/provide/vod/",
@@ -83,7 +89,8 @@
     },
     {
       "status": false,
-      "search": true,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "7",
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
@@ -94,8 +101,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "8",
       "api": "https://api.ukuapi.com/api.php/provide/vod/",
@@ -106,8 +114,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "9",
       "api": "https://api.wujinapi.com/api.php/provide/vod/",
@@ -118,8 +127,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "10",
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
@@ -130,8 +140,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "11",
       "api": "http://zuidazy.me/api.php/provide/vod/",
@@ -142,8 +153,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "12",
       "api": "https://suoniapi.com/api.php/provide/vod",
@@ -154,8 +166,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "13",
       "api": "https://www.moduzy.com/api.php/provide/vod",
@@ -166,8 +179,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "14",
       "api": "https://json.heimuer.xyz/api.php/provide/vod",
@@ -178,8 +192,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "15",
       "api": "https://huawei8.live/api.php/provide/vod",
@@ -190,8 +205,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "16",
       "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/json",
@@ -202,8 +218,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "17",
       "api": "https://cj.rycjapi.com/api.php/provide/vod",
@@ -214,8 +231,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "18",
       "api": "https://caiji.dbzy.tv/api.php/provide/vod/from/dbm3u8/at/josn",
@@ -226,8 +244,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "19",
       "api": "https://subocaiji.com/api.php/provide/vod/",
@@ -238,8 +257,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "20",
       "api": "https://jszyapi.com/api.php/provide/vod/at/json",
@@ -250,8 +270,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "21",
       "api": "http://zy.xiaomaomi.cc/api.php/provide/vod/",
@@ -262,8 +283,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "22",
       "api": "https://bfzyapi.com/api.php/provide/vod/",
@@ -274,8 +296,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "23",
       "api": "https://cj.vodimg.top/api.php/provide/vod/",
@@ -286,8 +309,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "24",
       "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
@@ -298,8 +322,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "25",
       "api": "https://pg.fenwe078.cf/api.php/provide/vod/at/json",
@@ -310,8 +335,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "26",
       "api": "https://img.smdyw.top/api.php/provide/vod/",
@@ -322,8 +348,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "https://www.ckplayer.vip/jiexi/?url=",
       "id": "27",
       "api": "http://www.csykkj.club/api.php/provide/vod/",
@@ -334,8 +361,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "28",
       "api": "https://hhzyapi.com/api.php/provide/vod/at/json",
@@ -346,8 +374,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "61",
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn",
@@ -358,8 +387,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "62",
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json",
@@ -370,8 +400,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "63",
       "api": "https://api.maoyanapi.top/api.php/provide/vod",
@@ -382,8 +413,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "64",
       "api": "https://360zyzz.com/api.php/provide/vod",
@@ -394,8 +426,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "41",
       "api": "https://ckzy.me/api.php/provide/vod/",
@@ -406,8 +439,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "https://www.155jx.com/?url=",
       "id": "42",
       "api": "https://155api.com/api.php/provide/vod/",
@@ -418,8 +452,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "46",
       "api": "https://www.pgxdy.com/api/json.php",
@@ -430,8 +465,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "65",
       "api": "https://xingba222.com/api.php/provide/vod",
@@ -442,8 +478,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "29",
       "api": "https://tmyy.cc/api.php/provide/vod/from/m3u8/",
@@ -454,8 +491,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "30",
       "api": "https://8day.icu/api.php/provide/vod/at/json",
@@ -466,8 +504,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "31",
       "api": "http://chujia.cc/api.php/provide/vod/from/m3u8/",
@@ -478,8 +517,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "32",
       "api": "https://www.siwazyw.tv/api.php/provide/vod/at/json",
@@ -490,8 +530,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "33",
       "api": "https://caiji.putaozyw.net/inc/apijson_vod.php",
@@ -502,8 +543,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "34",
       "api": "https://xxavs.com/api.php/provide/vod/at/json",
@@ -514,8 +556,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "35",
       "api": "https://a.uezy.pw/api.php/provide/vod/at/json",
@@ -526,8 +569,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "36",
       "api": "https://www.caoliuzyw.com/api.php/provide/vod/at/json/",
@@ -538,8 +582,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "37",
       "api": "https://api.ddapi.cc/api.php/provide/vod/at/json",
@@ -550,8 +595,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "38",
       "api": "https://apilsbzy1.com/api.php/provide/vod/at/json",
@@ -562,8 +608,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "39",
       "api": "https://jkunzyapi.com/api.php/provide/vod/at/json",
@@ -574,8 +621,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "40",
       "api": "https://api.yikanapi.com/api.php/provide/vod/",
@@ -586,8 +634,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "43",
       "api": "https://lbapi9.com/api.php/provide/vod/at/json",
@@ -598,8 +647,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "44",
       "api": "https://shayuapi.com/api.php/provide/vod/",
@@ -610,8 +660,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "45",
       "api": "http://fhapi9.com/api.php/provide/vod",
@@ -622,8 +673,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "https://yutujx.com/?url=",
       "id": "47",
       "api": "https://apiyutu.com/api.php/provide/vod/",
@@ -634,8 +686,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "https://sljxsl.com/?url=",
       "id": "48",
       "api": "https://slapibf.com/api.php/provide/vod/",
@@ -646,8 +699,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "https://jiexi.99mao.xyz/m3u8/?url=",
       "id": "49",
       "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
@@ -658,8 +712,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "https://player.avre20.com:5418/player/?url=",
       "id": "50",
       "api": "https://www.avre00.com/api.php/Prodao/vod/",
@@ -670,8 +725,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "https://nxxzynxp.com/?url=",
       "id": "51",
       "api": "https://Naixxzy.com/api.php/provide/vod/",
@@ -682,8 +738,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "52",
       "api": "https://www.kxgav.com/api/json.php",
@@ -694,8 +751,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "53",
       "api": "https://apilj.com/api.php/provide/vod/at/json/",
@@ -706,8 +764,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "54",
       "api": "https://api.sexnguon.com/api.php/provide/vod/",
@@ -718,8 +777,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "66",
       "api": "https://vnzyz.com/api.php/provide/vod",
@@ -730,8 +790,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "67",
       "api": "https://www.heiliaozyapi.com/api.php/provide/vod/",
@@ -742,8 +803,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "68",
       "api": "https://apidanaizi.com/api.php/provide/vod",
@@ -754,8 +816,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "55",
       "api": "https://www.pgxdy.com/api/json.php",
@@ -766,8 +829,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "56",
       "api": "https://aosikazy.com/api.php/provide/vod/",
@@ -778,8 +842,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "57",
       "api": "https://www.msnii.com/api/json.php",
@@ -790,8 +855,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "58",
       "api": "https://www.xrbsp.com/api/json.php",
@@ -802,8 +868,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "59",
       "api": "https://www.gdlsp.com/api/json.php",
@@ -814,8 +881,9 @@
       "isActive": true
     },
     {
-      "status": true,
-      "search": true,
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "playUrl": "",
       "id": "60",
       "api": "https://91md.me/api.php/provide/vod",
