@@ -3,30 +3,9 @@
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "name": "IPTV-V4",
-      "type": 0,
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt"
-    }
-    {
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
       "name": "IPTV",
       "type": 0,
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u"
-    }
-    {
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "name": "BMCH",
-      "type": 0,
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/big-mouth-cn/tv/main/iptv-ok.m3u"
-    }
-    {
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "name": "Tianmu",
-      "type": 0,
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt"
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt"
     }
   ],
   "sites": [
