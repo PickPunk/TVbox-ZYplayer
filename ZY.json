@@ -3,15 +3,36 @@
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "name": "IPTV",
+      "name": "IPTV-V4",
       "type": 0,
       "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt"
+    }
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "IPTV",
+      "type": 0,
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u"
+    }    
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "BMCH",
+      "type": 0,
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/big-mouth-cn/tv/main/iptv-ok.m3u"
+    }
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "Tianmu",
+      "type": 0,
+      "url": "https://gh-proxy.org/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt"
     }
   ],
   "sites": [
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "1",
@@ -24,7 +45,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "2",
@@ -37,7 +58,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "3",
@@ -50,7 +71,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "4",
@@ -63,7 +84,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "5",
@@ -76,7 +97,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "6",
@@ -89,7 +110,7 @@
     },
     {
       "status": false,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "7",
@@ -102,7 +123,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "8",
@@ -115,7 +136,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "9",
@@ -128,7 +149,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "10",
@@ -141,7 +162,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "11",
@@ -154,7 +175,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "12",
@@ -167,7 +188,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "13",
@@ -180,7 +201,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "14",
@@ -193,7 +214,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "15",
@@ -206,7 +227,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "16",
@@ -219,7 +240,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "17",
@@ -232,7 +253,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "18",
@@ -245,7 +266,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "19",
@@ -258,7 +279,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "20",
@@ -271,7 +292,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "21",
@@ -284,7 +305,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "22",
@@ -297,7 +318,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "23",
@@ -310,7 +331,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "24",
@@ -323,7 +344,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "25",
@@ -336,7 +357,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "26",
@@ -349,7 +370,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "https://www.ckplayer.vip/jiexi/?url=",
       "id": "27",
@@ -362,7 +383,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "28",
@@ -375,7 +396,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "61",
@@ -388,7 +409,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "62",
@@ -401,7 +422,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "63",
@@ -414,7 +435,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "64",
@@ -427,7 +448,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "41",
@@ -440,7 +461,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "https://www.155jx.com/?url=",
       "id": "42",
@@ -453,7 +474,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "46",
@@ -466,7 +487,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "65",
@@ -479,7 +500,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "29",
@@ -492,7 +513,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "30",
@@ -505,7 +526,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "31",
@@ -518,7 +539,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "32",
@@ -531,7 +552,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "33",
@@ -544,7 +565,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "34",
@@ -557,7 +578,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "35",
@@ -570,7 +591,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "36",
@@ -583,7 +604,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "37",
@@ -596,7 +617,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "38",
@@ -609,7 +630,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "39",
@@ -622,7 +643,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "40",
@@ -635,7 +656,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "43",
@@ -648,7 +669,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "44",
@@ -661,7 +682,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "45",
@@ -674,7 +695,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "https://yutujx.com/?url=",
       "id": "47",
@@ -687,7 +708,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "https://sljxsl.com/?url=",
       "id": "48",
@@ -700,7 +721,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "https://jiexi.99mao.xyz/m3u8/?url=",
       "id": "49",
@@ -713,7 +734,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "https://player.avre20.com:5418/player/?url=",
       "id": "50",
@@ -726,7 +747,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "https://nxxzynxp.com/?url=",
       "id": "51",
@@ -739,7 +760,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "52",
@@ -752,7 +773,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "53",
@@ -765,7 +786,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "54",
@@ -778,7 +799,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "66",
@@ -791,7 +812,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "67",
@@ -804,7 +825,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "68",
@@ -817,7 +838,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "55",
@@ -830,7 +851,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "56",
@@ -843,7 +864,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "57",
@@ -856,7 +877,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "58",
@@ -869,7 +890,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "59",
@@ -882,7 +903,7 @@
     },
     {
       "searchable": 1,
-      "search": 1,
+      "filterable": 1,
       "quickSearch": 1,
       "playUrl": "",
       "id": "60",
