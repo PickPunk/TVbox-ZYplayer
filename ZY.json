@@ -639,10 +639,10 @@
       "quickSearch": 1,
       "playUrl": "",
       "id": "66",
-      "api": "https://www.gdlsp.com/api/json.php",
+      "api": "https://www.gdlsp.com/api/xml.php",
       "key": "香奶儿",
       "group": "18+",
-      "type": 1,
+      "type": 0,
       "name": "🍊香奶儿",
       "isActive": true
     },
