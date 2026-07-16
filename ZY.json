@@ -4,8 +4,8 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "name": "IPTV",
-      "type": 0,
-      "url": "https://gh-proxy.org/raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u"
+      "type": 1,
+      "url": "https://live.445569.xyz/live.m3u"
     }
   ],
   "sites": [
