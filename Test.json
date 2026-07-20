@@ -3,61 +3,49 @@
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "id": "L1",
       "key": "IPTV",
       "name": "IPTV",
       "type": 0,
-      "isActive": true,
       "url": "https://live.445569.xyz/live.m3u"
     }
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "id": "L2",
       "key": "IPTV4",
       "name": "IPTV4",
       "type": 0,
-      "isActive": true,
       "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u"
     }
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "id": "L3",
       "key": "LIVE",
       "name": "LIVE",
       "type": 0,
-      "isActive": true,
       "url": "https://cdn.qd.je/live.m3u"
     }
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "id": "L4",
       "key": "X-LIVE",
       "name": "X-LIVE",
       "type": 0,
-      "isActive": true,
       "url": "https://jsnzkpg1.pages.dev/live.m3u"
     }
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "id": "L5",
       "key": "SinParty",
       "name": "SinParty",
       "type": 0,
-      "isActive": true,
       "url": "https://jsnzkpg3.pages.dev/live.m3u"
     }
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "id": "L6",
       "key": "V-HUB",
       "name": "V-HUB",
       "type": 0,
-      "isActive": true,
       "url": "https://jsnzkpg2.pages.dev/live.m3u"
     }
   ],
