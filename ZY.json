@@ -6,6 +6,48 @@
       "name": "IPTV",
       "type": 0,
       "url": "https://live.445569.xyz/live.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "IPTV4",
+      "type": 0,
+      "url": "https://gh-proxy.org/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "LIVE",
+      "type": 0,
+      "url": "https://cdn.qd.je/live.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "X-LIVE",
+      "type": 0,
+      "url": "https://jsnzkpg1.pages.dev/live.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "SinParty",
+      "type": 0,
+      "url": "https://jsnzkpg3.pages.dev/live.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "V-HUB",
+      "type": 0,
+      "url": "https://jsnzkpg2.pages.dev/live.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "18+",
+      "type": 1,
+      "url": "https://gh-proxy.org/raw.githubusercontent.com/PickPunk/TVbox-ZYplayer/refs/heads/main/18%2B.m3u"
     }
   ],
   "sites": [
@@ -13,794 +55,550 @@
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "1",
       "api": "https://api.okzyw.net/api.php/provide/vod",
       "key": "OK",
-      "group": "影视",
       "type": 1,
-      "name": "🍏OK",
-      "isActive": true
+      "name": "🍏OK"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "2",
       "api": "https://98zy.vip/api.php/provide/vod/",
       "key": "98",
-      "group": "影视",
       "type": 1,
-      "name": "🍏98",
-      "isActive": true
+      "name": "🍏98"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "3",
       "api": "https://360zyzz.com/api.php/provide/vod",
       "key": "360",
-      "group": "影视",
       "type": 1,
-      "name": "🍏360",
-      "isActive": true
+      "name": "🍏360"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "4",
       "api": "http://cj.lziapi.com/api.php/provide/vod/",
       "key": "量子",
-      "group": "影视",
       "type": 1,
-      "name": "🍏量子",
-      "isActive": true
+      "name": "🍏量子"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "5",
       "api": "https://api.apibdzy.com/api.php/provide/vod/",
       "key": "百度",
-      "group": "影视",
       "type": 1,
-      "name": "🍏百度",
-      "isActive": true
+      "name": "🍏百度"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "6",
       "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
       "key": "新浪",
-      "group": "影视",
       "type": 1,
-      "name": "🍏新浪",
-      "isActive": true
+      "name": "🍏新浪"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "7",
       "api": "https://api.guangsuapi.com/api.php/provide/vod/",
       "key": "光速",
-      "group": "影视",
       "type": 1,
-      "name": "🍏光速",
-      "isActive": true
+      "name": "🍏光速"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "8",
       "api": "https://jyzyapi.com/provide/vod/",
       "key": "金鹰",
-      "group": "影视",
       "type": 1,
-      "name": "🍏金鹰",
-      "isActive": true
+      "name": "🍏金鹰"
     },
     {
       "status": false,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "9",
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
       "key": "樱花",
-      "group": "影视",
       "type": 1,
-      "name": "🍏樱花",
-      "isActive": true
+      "name": "🍏樱花"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "10",
       "api": "https://api.wujinapi.com/api.php/provide/vod/",
       "key": "无尽",
-      "group": "影视",
       "type": 1,
-      "name": "🍏无尽",
-      "isActive": true
+      "name": "🍏无尽"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "11",
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
       "key": "红牛",
-      "group": "影视",
       "type": 1,
-      "name": "🍏红牛",
-      "isActive": true
+      "name": "🍏红牛"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "12",
       "api": "http://zuidazy.me/api.php/provide/vod/",
       "key": "最大",
-      "group": "影视",
       "type": 1,
-      "name": "🍏最大",
-      "isActive": true
+      "name": "🍏最大"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "13",
       "api": "https://suoniapi.com/api.php/provide/vod",
       "key": "索尼",
-      "group": "影视",
       "type": 1,
-      "name": "🍏索尼",
-      "isActive": true
+      "name": "🍏索尼"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "14",
       "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/json",
       "key": "虎牙",
-      "group": "影视",
       "type": 1,
-      "name": "🍏虎牙",
-      "isActive": true
+      "name": "🍏虎牙"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "15",
       "api": "https://cj.rycjapi.com/api.php/provide/vod",
       "key": "如意",
-      "group": "影视",
       "type": 1,
-      "name": "🍏如意",
-      "isActive": true
+      "name": "🍏如意"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "16",
       "api": "https://subocaiji.com/api.php/provide/vod/",
       "key": "速播",
-      "group": "影视",
       "type": 1,
-      "name": "🍏速播",
-      "isActive": true
+      "name": "🍏速播"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "17",
       "api": "https://jszyapi.com/api.php/provide/vod/at/json",
       "key": "极速",
-      "group": "影视",
       "type": 1,
-      "name": "🍏极速",
-      "isActive": true
+      "name": "🍏极速"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "18",
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "key": "暴风",
-      "group": "影视",
       "type": 1,
-      "name": "🍏暴风",
-      "isActive": true
+      "name": "🍏暴风"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "19",
       "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
       "key": "非凡",
-      "group": "影视",
       "type": 1,
-      "name": "🍏非凡",
-      "isActive": true
+      "name": "🍏非凡"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "20",
       "api": "https://hhzyapi.com/api.php/provide/vod/at/json",
       "key": "火狐",
-      "group": "影视",
       "type": 1,
-      "name": "🍏火狐",
-      "isActive": true
+      "name": "🍏火狐"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "21",
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn",
       "key": "茅台",
-      "group": "影视",
       "type": 1,
-      "name": "🍏茅台",
-      "isActive": true
+      "name": "🍏茅台"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "22",
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json",
       "key": "天堂",
-      "group": "影视",
       "type": 1,
-      "name": "🍏天堂",
-      "isActive": true
+      "name": "🍏天堂"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "23",
       "api": "https://caiji.xgzyapi.com/api.php/provide/vod/",
       "key": "西瓜",
-      "group": "影视",
       "type": 1,
-      "name": "🍏西瓜",
-      "isActive": true
+      "name": "🍏西瓜"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "24",
       "api": "https://hhzyapi.com/api.php/provide/vod/at/json",
       "key": "豪华",
-      "group": "影视",
       "type": 1,
-      "name": "🍏豪华",
-      "isActive": true
+      "name": "🍏豪华"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "25",
       "api": "https://api.wsyzy.net/api.php/provide/vod/",
       "key": "无印",
-      "group": "影视",
       "type": 1,
-      "name": "🍏无印",
-      "isActive": true
+      "name": "🍏无印"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "26",
       "api": "https://api.niuniuzy.me/api.php/provide/vod/",
       "key": "牛牛",
-      "group": "影视",
       "type": 1,
-      "name": "🍏牛牛",
-      "isActive": true
+      "name": "🍏牛牛"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "27",
       "api": "https://tyyszyapi.com/api.php/provide/vod/",
       "key": "旺旺",
-      "group": "影视",
       "type": 1,
-      "name": "🍏旺旺",
-      "isActive": true
+      "name": "🍏旺旺"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "28",
       "api": "https://cj.yayazy.net/api.php/provide/vod",
       "key": "鸭鸭",
-      "group": "影视",
       "type": 1,
-      "name": "🍏鸭鸭",
-      "isActive": true
+      "name": "🍏鸭鸭"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "29",
-      "api": "https://cj.yayazy.net/api.php/provide/vod",
-      "key": "鸭鸭",
-      "group": "影视",
+      "api": "https://dy.7772888.xyz/api.php/tvbox",
+      "key": "爬虫",
       "type": 1,
-      "name": "🍏鸭鸭",
-      "isActive": true
+      "name": "🍏爬虫"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "30",
       "api": "https://api.ukuapi.com/api.php/provide/vod/",
       "key": "优酷",
-      "group": "影视",
       "type": 1,
-      "name": "🍏优酷🪜",
-      "isActive": true
+      "name": "🍏优酷🪜"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "31",
       "api": "https://www.moduzy.com/api.php/provide/vod",
       "key": "魔都",
-      "group": "影视",
       "type": 1,
-      "name": "🍏魔都🪜",
-      "isActive": true
+      "name": "🍏魔都🪜"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "32",
       "api": "https://api.maoyanapi.top/api.php/provide/vod",
       "key": "猫眼",
-      "group": "影视",
       "type": 1,
-      "name": "🍏猫眼🪜",
-      "isActive": true
+      "name": "🍏猫眼🪜"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "33",
       "api": "https://ikunzyapi.com/api.php/provide/vod",
       "key": "爱坤",
-      "group": "影视",
       "type": 1,
-      "name": "🍏爱坤🪜",
-      "isActive": true
+      "name": "🍏爱坤🪜"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "41",
       "api": "https://ckzy.me/api.php/provide/vod/",
       "key": "CK",
-      "group": "18+",
       "type": 1,
-      "name": "🍊CK",
-      "isActive": true
+      "name": "🍊CK"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "https://www.155jx.com/?url=",
-      "id": "42",
       "api": "https://155api.com/api.php/provide/vod/",
       "key": "155",
-      "group": "18+",
       "type": 1,
-      "name": "🍊155",
-      "isActive": true
+      "name": "🍊155"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "43",
       "api": "https://xingba222.com/api.php/provide/vod",
       "key": "杏吧",
-      "group": "18+",
       "type": 1,
-      "name": "🍊杏吧",
-      "isActive": true
+      "name": "🍊杏吧"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "44",
       "api": "https://jipinvip1.com/api.php/provide/vod/",
       "key": "极品",
-      "group": "18+",
       "type": 1,
-      "name": "🍊极品",
-      "isActive": true
+      "name": "🍊极品"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "45",
       "api": "http://chujia.cc/api.php/provide/vod/from/m3u8/",
       "key": "精东",
-      "group": "18+",
       "type": 1,
-      "name": "🍊精东",
-      "isActive": true
+      "name": "🍊精东"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "46",
       "api": "https://api.ddapi.cc/api.php/provide/vod/at/json",
       "key": "滴滴",
-      "group": "18+",
       "type": 1,
-      "name": "🍊滴滴",
-      "isActive": true
+      "name": "🍊滴滴"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "47",
       "api": "https://apilsbzy1.com/api.php/provide/vod/at/json",
       "key": "色逼",
-      "group": "18+",
       "type": 1,
-      "name": "🍊色逼",
-      "isActive": true
+      "name": "🍊色逼"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "48",
       "api": "https://jkunzyapi.com/api.php/provide/vod/at/json",
       "key": "鸡坤",
       "type": 1,
-      "group": "18+",
-      "name": "🍊鸡坤",
-      "isActive": true
+      "name": "🍊鸡坤"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "49",
       "api": "https://lbapi9.com/api.php/provide/vod/at/json",
       "key": "乐播",
-      "group": "18+",
       "type": 1,
-      "name": "🍊乐播",
-      "isActive": true
+      "name": "🍊乐播"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "50",
       "api": "http://fhapi9.com/api.php/provide/vod",
       "key": "番号",
-      "group": "18+",
       "type": 1,
-      "name": "🍊番号",
-      "isActive": true
+      "name": "🍊番号"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "https://yutujx.com/?url=",
-      "id": "51",
       "api": "https://apiyutu.com/api.php/provide/vod/",
       "key": "玉兔",
-      "group": "18+",
       "type": 1,
-      "name": "🍊玉兔",
-      "isActive": true
+      "name": "🍊玉兔"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "https://sljxsl.com/?url=",
-      "id": "52",
       "api": "https://slapibf.com/api.php/provide/vod/",
       "key": "森林",
-      "group": "18+",
       "type": 1,
-      "name": "🍊森林",
-      "isActive": true
+      "name": "🍊森林"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "53",
       "api": "http://api.11bat.com/api.php/provide/vod/",
       "key": "蝙蝠",
-      "group": "18+",
       "type": 1,
-      "name": "🍊蝙蝠",
-      "isActive": true
+      "name": "🍊蝙蝠"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "54",
       "api": "https://vnzyz.com/api.php/provide/vod",
       "key": "越南",
-      "group": "18+",
       "type": 1,
-      "name": "🍊越南",
-      "isActive": true
+      "name": "🍊越南"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "55",
       "api": "https://www.heiliaozyapi.com/api.php/provide/vod/",
       "key": "黑料",
-      "group": "18+",
       "type": 1,
-      "name": "🍊黑料",
-      "isActive": true
+      "name": "🍊黑料"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "56",
       "api": "https://apidanaizi.com/api.php/provide/vod",
       "key": "大奶",
-      "group": "18+",
       "type": 1,
-      "name": "🍊大奶",
-      "isActive": true
+      "name": "🍊大奶"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "57",
       "api": "https://www.xiangjiaozyw.com/api.php/provide/vod/",
       "key": "香蕉",
-      "group": "18+",
       "type": 1,
-      "name": "🍊香蕉",
-      "isActive": true
+      "name": "🍊香蕉"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "58",
       "api": "https://fqzy.me//api.php/provide/vod/",
       "key": "番茄",
-      "group": "18+",
       "type": 1,
-      "name": "🍊番茄",
-      "isActive": true
+      "name": "🍊番茄"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "59",
       "api": "https://thzy1.me/api.php/provide/vod/",
       "key": "桃花",
-      "group": "18+",
       "type": 1,
-      "name": "🍊桃花",
-      "isActive": true
+      "name": "🍊桃花"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "60",
       "api": "https://api.souavzyw.net/api.php/provide/vod/",
       "key": "搜片",
-      "group": "18+",
       "type": 1,
-      "name": "🍊搜片",
-      "isActive": true
+      "name": "🍊搜片"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "61",
       "api": "https://api.douapi.cc/api.php/provide/vod/",
       "key": "豆豆",
-      "group": "18+",
       "type": 1,
-      "name": "🍊豆豆",
-      "isActive": true
+      "name": "🍊豆豆"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "62",
       "api": "https://aosikazy.com/api.php/provide/vod/",
       "key": "奥斯卡",
-      "group": "18+",
       "type": 1,
-      "name": "🍊奥斯卡",
-      "isActive": true
+      "name": "🍊奥斯卡"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "63",
       "api": "https://www.jingpinx.com//api.php/provide/vod/",
       "key": "精品",
-      "group": "18+",
       "type": 1,
-      "name": "🍊精品🪜",
-      "isActive": true
+      "name": "🍊精品🪜"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "64",
       "api": "https://xxavs.com/api.php/provide/vod/at/json",
       "key": "湿园",
-      "group": "18+",
       "type": 1,
-      "name": "🍊湿园🪜",
-      "isActive": true
+      "name": "🍊湿园🪜"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "65",
       "api": "https://shayuapi.com/api.php/provide/vod/",
       "key": "鲨鱼",
-      "group": "18+",
       "type": 1,
-      "name": "🍊鲨鱼🪜",
-      "isActive": true
+      "name": "🍊鲨鱼🪜"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "66",
       "api": "https://apilj.com/api.php/provide/vod/at/json/",
       "key": "辣椒",
-      "group": "18+",
       "type": 1,
-      "name": "🍊辣椒🪜",
-      "isActive": true
+      "name": "🍊辣椒🪜"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "https://nxxzynxp.com/?url=",
-      "id": "67",
       "api": "https://Naixxzy.com/api.php/provide/vod/",
       "key": "奶香",
-      "group": "18+",
       "type": 1,
-      "name": "🍊奶香🪜",
-      "isActive": true
+      "name": "🍊奶香🪜"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "playUrl": "",
-      "id": "68",
       "api": "https://91md.me/api.php/provide/vod",
       "key": "91麻豆",
-      "group": "18+",
       "type": 1,
-      "name": "🍊91麻豆🪜",
-      "isActive": true
+      "name": "🍊91麻豆🪜"
     }
   ]
 }
