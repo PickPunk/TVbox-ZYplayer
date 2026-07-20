@@ -47,14 +47,7 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "name": "18+",
       "type": 1,
-      "url": "https://gh-proxy.org/raw.githubusercontent.com/PickPunk/TVbox-ZYplayer/refs/heads/main/18%2B.txt"
-    },
-    {
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "name": "Adult",
-      "type": 0,
-      "url": "https://gh-proxy.org/raw.githubusercontent.com/YueChan/Live/main/Adult.m3u"
+      "url": "https://gh-proxy.org/raw.githubusercontent.com/PickPunk/TVbox-ZYplayer/refs/heads/main/18%2B.m3u"
     }
   ],
   "sites": [
