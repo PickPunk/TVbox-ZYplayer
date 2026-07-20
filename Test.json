@@ -1,0 +1,604 @@
+{
+  "lives": [
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "IPTV",
+      "type": 0,
+      "url": "https://live.445569.xyz/live.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "IPTV4",
+      "type": 0,
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "LIVE",
+      "type": 0,
+      "url": "https://cdn.qd.je/live.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "X-LIVE",
+      "type": 0,
+      "url": "https://jsnzkpg1.pages.dev/live.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "SinParty",
+      "type": 0,
+      "url": "https://jsnzkpg3.pages.dev/live.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "V-HUB",
+      "type": 0,
+      "url": "https://jsnzkpg2.pages.dev/live.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "Adult",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/YueChan/Live/main/Adult.m3u"
+    }
+  ],
+  "sites": [
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.okzyw.net/api.php/provide/vod",
+      "key": "OK",
+      "type": 1,
+      "name": "🍏OK"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://98zy.vip/api.php/provide/vod/",
+      "key": "98",
+      "type": 1,
+      "name": "🍏98"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://360zyzz.com/api.php/provide/vod",
+      "key": "360",
+      "type": 1,
+      "name": "🍏360"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "http://cj.lziapi.com/api.php/provide/vod/",
+      "key": "量子",
+      "type": 1,
+      "name": "🍏量子"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/",
+      "key": "百度",
+      "type": 1,
+      "name": "🍏百度"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+      "key": "新浪",
+      "type": 1,
+      "name": "🍏新浪"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "key": "光速",
+      "type": 1,
+      "name": "🍏光速"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://jyzyapi.com/provide/vod/",
+      "key": "金鹰",
+      "type": 1,
+      "name": "🍏金鹰"
+    },
+    {
+      "status": false,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
+      "key": "樱花",
+      "type": 1,
+      "name": "🍏樱花"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.wujinapi.com/api.php/provide/vod/",
+      "key": "无尽",
+      "type": 1,
+      "name": "🍏无尽"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "key": "红牛",
+      "type": 1,
+      "name": "🍏红牛"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "http://zuidazy.me/api.php/provide/vod/",
+      "key": "最大",
+      "type": 1,
+      "name": "🍏最大"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod",
+      "key": "索尼",
+      "type": 1,
+      "name": "🍏索尼"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/json",
+      "key": "虎牙",
+      "type": 1,
+      "name": "🍏虎牙"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://cj.rycjapi.com/api.php/provide/vod",
+      "key": "如意",
+      "type": 1,
+      "name": "🍏如意"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://subocaiji.com/api.php/provide/vod/",
+      "key": "速播",
+      "type": 1,
+      "name": "🍏速播"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/at/json",
+      "key": "极速",
+      "type": 1,
+      "name": "🍏极速"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "key": "暴风",
+      "type": 1,
+      "name": "🍏暴风"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
+      "key": "非凡",
+      "type": 1,
+      "name": "🍏非凡"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/at/json",
+      "key": "火狐",
+      "type": 1,
+      "name": "🍏火狐"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn",
+      "key": "茅台",
+      "type": 1,
+      "name": "🍏茅台"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json",
+      "key": "天堂",
+      "type": 1,
+      "name": "🍏天堂"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://caiji.xgzyapi.com/api.php/provide/vod/",
+      "key": "西瓜",
+      "type": 1,
+      "name": "🍏西瓜"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/at/json",
+      "key": "豪华",
+      "type": 1,
+      "name": "🍏豪华"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.wsyzy.net/api.php/provide/vod/",
+      "key": "无印",
+      "type": 1,
+      "name": "🍏无印"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/",
+      "key": "牛牛",
+      "type": 1,
+      "name": "🍏牛牛"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://tyyszyapi.com/api.php/provide/vod/",
+      "key": "旺旺",
+      "type": 1,
+      "name": "🍏旺旺"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://cj.yayazy.net/api.php/provide/vod",
+      "key": "鸭鸭",
+      "type": 1,
+      "name": "🍏鸭鸭"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://cj.yayazy.net/api.php/provide/vod",
+      "key": "鸭鸭",
+      "type": 1,
+      "name": "🍏鸭鸭"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.ukuapi.com/api.php/provide/vod/",
+      "key": "优酷",
+      "type": 1,
+      "name": "🍏优酷🪜"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.moduzy.com/api.php/provide/vod",
+      "key": "魔都",
+      "type": 1,
+      "name": "🍏魔都🪜"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "key": "猫眼",
+      "type": 1,
+      "name": "🍏猫眼🪜"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod",
+      "key": "爱坤",
+      "type": 1,
+      "name": "🍏爱坤🪜"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://ckzy.me/api.php/provide/vod/",
+      "key": "CK",
+      "type": 1,
+      "name": "🍊CK"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://155api.com/api.php/provide/vod/",
+      "key": "155",
+      "type": 1,
+      "name": "🍊155"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://xingba222.com/api.php/provide/vod",
+      "key": "杏吧",
+      "type": 1,
+      "name": "🍊杏吧"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://jipinvip1.com/api.php/provide/vod/",
+      "key": "极品",
+      "type": 1,
+      "name": "🍊极品"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "http://chujia.cc/api.php/provide/vod/from/m3u8/",
+      "key": "精东",
+      "type": 1,
+      "name": "🍊精东"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.ddapi.cc/api.php/provide/vod/at/json",
+      "key": "滴滴",
+      "type": 1,
+      "name": "🍊滴滴"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://apilsbzy1.com/api.php/provide/vod/at/json",
+      "key": "色逼",
+      "type": 1,
+      "name": "🍊色逼"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://jkunzyapi.com/api.php/provide/vod/at/json",
+      "key": "鸡坤",
+      "type": 1,
+      "name": "🍊鸡坤"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/at/json",
+      "key": "乐播",
+      "type": 1,
+      "name": "🍊乐播"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "http://fhapi9.com/api.php/provide/vod",
+      "key": "番号",
+      "type": 1,
+      "name": "🍊番号"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://apiyutu.com/api.php/provide/vod/",
+      "key": "玉兔",
+      "type": 1,
+      "name": "🍊玉兔"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://slapibf.com/api.php/provide/vod/",
+      "key": "森林",
+      "type": 1,
+      "name": "🍊森林"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "http://api.11bat.com/api.php/provide/vod/",
+      "key": "蝙蝠",
+      "type": 1,
+      "name": "🍊蝙蝠"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://vnzyz.com/api.php/provide/vod",
+      "key": "越南",
+      "type": 1,
+      "name": "🍊越南"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.heiliaozyapi.com/api.php/provide/vod/",
+      "key": "黑料",
+      "type": 1,
+      "name": "🍊黑料"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://apidanaizi.com/api.php/provide/vod",
+      "key": "大奶",
+      "type": 1,
+      "name": "🍊大奶"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.xiangjiaozyw.com/api.php/provide/vod/",
+      "key": "香蕉",
+      "type": 1,
+      "name": "🍊香蕉"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://fqzy.me//api.php/provide/vod/",
+      "key": "番茄",
+      "type": 1,
+      "name": "🍊番茄"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://thzy1.me/api.php/provide/vod/",
+      "key": "桃花",
+      "type": 1,
+      "name": "🍊桃花"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.souavzyw.net/api.php/provide/vod/",
+      "key": "搜片",
+      "type": 1,
+      "name": "🍊搜片"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.douapi.cc/api.php/provide/vod/",
+      "key": "豆豆",
+      "type": 1,
+      "name": "🍊豆豆"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://aosikazy.com/api.php/provide/vod/",
+      "key": "奥斯卡",
+      "type": 1,
+      "name": "🍊奥斯卡"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.jingpinx.com//api.php/provide/vod/",
+      "key": "精品",
+      "type": 1,
+      "name": "🍊精品🪜"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://xxavs.com/api.php/provide/vod/at/json",
+      "key": "湿园",
+      "type": 1,
+      "name": "🍊湿园🪜"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://shayuapi.com/api.php/provide/vod/",
+      "key": "鲨鱼",
+      "type": 1,
+      "name": "🍊鲨鱼🪜"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://apilj.com/api.php/provide/vod/at/json/",
+      "key": "辣椒",
+      "type": 1,
+      "name": "🍊辣椒🪜"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://Naixxzy.com/api.php/provide/vod/",
+      "key": "奶香",
+      "type": 1,
+      "name": "🍊奶香🪜"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://91md.me/api.php/provide/vod",
+      "key": "91麻豆",
+      "type": 1,
+      "name": "🍊91麻豆🪜"
+    }
+  ]
+}
