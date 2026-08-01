@@ -24,6 +24,13 @@
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "TEST",
+      "type": 0,
+      "url": "https://epg.pw/test_channels.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
       "name": "抖音",
       "type": 0,
       "url": "https://stymei2.pages.dev/live.m3u"
