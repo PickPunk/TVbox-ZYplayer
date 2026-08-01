@@ -24,23 +24,23 @@
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "name": "X-LIVE",
+      "name": "抖音",
       "type": 0,
-      "url": "https://jsnzkpg1.pages.dev/live.m3u"
+      "url": "https://stymei2.pages.dev/live.m3u"
     },
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "name": "SinParty",
+      "name": "Twitch",
       "type": 0,
-      "url": "https://jsnzkpg3.pages.dev/live.m3u"
+      "url": "https://twitch.445569.xyz/live.m3u"
     },
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "name": "V-HUB",
+      "name": "TikTok",
       "type": 0,
-      "url": "https://jsnzkpg2.pages.dev/live.m3u"
+      "url": "https://tiktok.445569.xyz/live.m3u"
     },
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
