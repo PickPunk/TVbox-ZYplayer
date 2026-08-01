@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"
+#EXTM3U 
 #EXTINF:-1 tvg-name="国产1传媒01" tvg-logo="https://logo.catvod.com/国产1传媒01.png" group-title="国产1传媒",国产1传媒01
 https://10j99.cdnedge.live/file/avple-images/hls/61e11a91b12f2d3579c3423f/playlist.m3u8
 #EXTINF:-1 tvg-name="国产1传媒02" tvg-logo="https://logo.catvod.com/国产1传媒02.png" group-title="国产1传媒",国产1传媒02
