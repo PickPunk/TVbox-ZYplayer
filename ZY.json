@@ -24,6 +24,13 @@
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "LIVE2",
+      "type": 0,
+      "url": "https://gh-proxy.org/raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
       "name": "TEST",
       "type": 0,
       "url": "https://epg.pw/test_channels.m3u"
