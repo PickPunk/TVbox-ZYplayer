@@ -71,12 +71,12 @@ var index_config_default = {
     autoPush: true
   },
  t4: {list: [
-    {name: "🍏OK",
-      address: "https://api.okzyw.net/api.php/provide/vod"},
     {name: "🍏98",
       address: "https://98zy.vip/api.php/provide/vod/"},
     {name: "🍏360",
       address: "https://360zyzz.com/api.php/provide/vod"},
+    {name: "🍏欧克",
+      address: "https://api.okzyw.net/api.php/provide/vod"},
     {name: "🍏星球",
       address: "https://www.ysxq.cc/api.php/provide/vod"},
     {name: "🍏量子",
