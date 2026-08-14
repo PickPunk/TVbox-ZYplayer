@@ -149,7 +149,8 @@ var index_config_default = {
   {name: "🍊精东", address: "http://chujia.cc/api.php/provide/vod/from/m3u8/"},
   {name: "🍊滴滴", address: "https://api.ddapi.cc/api.php/provide/vod"},
   {name: "🍊色逼", address: "https://apilsbzy1.com/api.php/provide/vod"},
-  {name: "🍊鸡坤", address: "https://jkunzyapi.com/api.php/provide/vod"},
+  {name: "🍊鸡坤", address: "https://jkunzyapi.com/api.php/provide/vod"}
+  {name: "🍊小鸡", address: "https://api.xjzyapi.com/provide/vod"},
   {name: "🍊乐播", address: "https://lbapi9.com/api.php/provide/vod"},
   {name: "🍊番号", address: "http://fhapi9.com/api.php/provide/vod"},
   {name: "🍊玉兔", address: "https://apiyutu.com/api.php/provide/vod"},
