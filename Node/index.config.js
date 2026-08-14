@@ -139,11 +139,11 @@ var index_config_default = {
       address: "https://ikunzyapi.com/api.php/provide/vod"}
 ]},
   cms: {list: [
-  {name: "🍊CK", address: "https://ckbh1.xyz/api.php/provide/vod/?ac=list"},
+  {name: "🍊CK", address: "https://ckzy.me/api.php/provide/vod/"},
   {name: "🍊19", address: "https://19q.cc/api.php/provide/vod"},
   {name: "🍊91", address: "https://91av.cyou/api.php/provide/vod"},
   {name: "🍊155", address: "https://155api.com/api.php/provide/vod"},
-  {name: "🍊杏吧", address: "https://xingba111.com/api.php/provide/vod/?ac=list"},
+  {name: "🍊杏吧", address: "https://xingba111.com/api.php/provide/vod/"},
   {name: "🍊细胞", address: "https://www.xxibaozyw.com/api.php/provide/vod"},
   {name: "🍊极品", address: "https://jipinvip1.com/api.php/provide/vod/"},
   {name: "🍊精东", address: "http://chujia.cc/api.php/provide/vod/from/m3u8/"},
@@ -156,13 +156,13 @@ var index_config_default = {
   {name: "🍊森林", address: "http://slapibf.com/api.php/provide/vod"},
   {name: "🍊蝙蝠", address: "http://api.11bat.com/api.php/provide/vod/"},
   {name: "🍊越南", address: "https://vnzyz.com/api.php/provide/vod"},
-  {name: "🍊黑料", address: "https://www.heiliaozyapi.com/api.php/provide/vod/?ac=list"},
+  {name: "🍊黑料", address: "https://www.heiliaozyapi.com/api.php/provide/vod/"},
   {name: "🍊大奶", address: "https://apidanaizi.com/api.php/provide/vod"},
-  {name: "🍊香蕉", address: "https://www.xiangjiaozyw.com/api.php/provide/vod/?ac=list"},
-  {name: "🍊番茄", address: "https://fqzy.me//api.php/provide/vod/?ac=list"},
-  {name: "🍊桃花", address: "https://thzy1.me/api.php/provide/vod/?ac=list"},
+  {name: "🍊香蕉", address: "https://www.xiangjiaozyw.com/api.php/provide/vod/"},
+  {name: "🍊番茄", address: "https://fqzy.me//api.php/provide/vod/"},
+  {name: "🍊桃花", address: "https://thzy1.me/api.php/provide/vod/"},
   {name: "🍊搜片", address: "https://api.souavzyw.net/api.php/provide/vod/"},
-  {name: "🍊豆豆", address: "https://doudouzy.com/api.php/provide/vod/?ac=list"},
+  {name: "🍊豆豆", address: "https://doudouzy.com/api.php/provide/vod/"},
   {name: "🍊火速", address: "https://api.huosuapi.cc/api.php/provide/vod/"},
   {name: "🍊嘿嘿", address: "https://api.heiapi.cc/api.php/provide/vod/"},
   {name: "🍊黄仓", address: "https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json"},
@@ -171,8 +171,7 @@ var index_config_default = {
   {name: "🍊精品🪜", address: "https://www.jingpinx.com/api.php/provide/vod"},
   {name: "🍊辣椒🪜", address: "http://lajiaozy.com/api.php/provide/vod"},
   {name: "🍊奶香🪜", address: "https://naixxzy.com/api.php/provide/vod"},
-  {name: "🍊鲨鱼🪜", address: "https://shayuapi.com/api.php/provide/vod"},
-  {name: "🍊91麻豆🪜", address: "http://91md.me/api.php/provide/vod"}
+  {name: "🍊鲨鱼🪜", address: "https://shayuapi.com/api.php/provide/vod"}
 ]},
   alist: [
     {
