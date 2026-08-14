@@ -38,20 +38,6 @@
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "name": "抖音",
-      "type": 0,
-      "url": "https://stymei2.pages.dev/live.m3u"
-    },
-    {
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "name": "快手",
-      "type": 0,
-      "url": "https://kuaishou.445569.xyz/list.m3u"
-    },
-    {
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
       "name": "Twitch",
       "type": 0,
       "url": "https://twitch.445569.xyz/live.m3u"
