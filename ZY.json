@@ -344,15 +344,6 @@
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://dy.7772888.xyz/api.php/tvbox",
-      "key": "爬虫",
-      "type": 1,
-      "name": "🍏爬虫"
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
       "api": "https://api.ukuapi.com/api.php/provide/vod/",
       "key": "优酷",
       "type": 1,
@@ -393,6 +384,15 @@
       "key": "CK",
       "type": 1,
       "name": "🍊CK"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://19q.cc/api.php/provide/vod",
+      "key": "19",
+      "type": 1,
+      "name": "🍊19"
     },
     {
       "searchable": 1,
@@ -609,6 +609,15 @@
       "key": "嘿嘿",
       "type": 1,
       "name": "🍊嘿嘿"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json",
+      "key": "黄仓",
+      "type": 1,
+      "name": "🍊黄仓"
     },
     {
       "searchable": 1,
