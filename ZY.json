@@ -69,15 +69,6 @@
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://api.okzyw.net/api.php/provide/vod",
-      "key": "OK",
-      "type": 1,
-      "name": "🍏OK"
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
       "api": "https://98zy.vip/api.php/provide/vod/",
       "key": "98",
       "type": 1,
@@ -91,6 +82,15 @@
       "key": "360",
       "type": 1,
       "name": "🍏360"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.okzyw.net/api.php/provide/vod",
+      "key": "欧克",
+      "type": 1,
+      "name": "🍏欧克"
     },
     {
       "searchable": 1,
