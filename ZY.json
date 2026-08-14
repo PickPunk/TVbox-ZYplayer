@@ -609,7 +609,7 @@
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://aosikazy.com/api.php/provide/vod/",
+      "api": "https://aosikazy4.com/api.php/provide/vod/",
       "key": "奥斯卡",
       "type": 1,
       "name": "🍊奥斯卡"
@@ -658,15 +658,6 @@
       "key": "奶香",
       "type": 1,
       "name": "🍊奶香🪜"
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://91md.me/api.php/provide/vod",
-      "key": "91麻豆",
-      "type": 1,
-      "name": "🍊91麻豆🪜"
     }
   ]
 }
