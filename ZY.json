@@ -69,15 +69,6 @@
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://98zy.vip/api.php/provide/vod/",
-      "key": "98",
-      "type": 1,
-      "name": "🍏98"
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
       "api": "https://360zyzz.com/api.php/provide/vod",
       "key": "360",
       "type": 1,
@@ -91,15 +82,6 @@
       "key": "欧克",
       "type": 1,
       "name": "🍏欧克"
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://www.ysxq.cc/api.php/provide/vod",
-      "key": "星球",
-      "type": 1,
-      "name": "🍏星球"
     },
     {
       "searchable": 1,
@@ -420,7 +402,7 @@
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://jipinvip1.com/api.php/provide/vod/",
+      "api": "https://jipinvip.com/api.php/provide/vod/",
       "key": "极品",
       "type": 1,
       "name": "🍊极品"
@@ -492,10 +474,10 @@
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://apiyutu.com/api.php/provide/vod/",
-      "key": "玉兔",
+      "api": "https://www.hlzy.store/api.php/provide/vod",
+      "key": "红楼",
       "type": 1,
-      "name": "🍊玉兔"
+      "name": "🍊红楼"
     },
     {
       "searchable": 1,
