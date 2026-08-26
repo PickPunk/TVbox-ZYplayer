@@ -62,23 +62,19 @@ var index_config_default = {
   },
    danmu: {
     urls: [
-           { address: "https://logdanmu.dpdns.org", name: "默认1" },
-           { address: "https://fjj0417.dpdns.org/87654321", name: "默认2" }, 
+           { address: "http://ecs.dysobo.cn:9321/87654321", name: "默认1" },
+           { address: "http://47.107.188.112:6008/87654321", name: "默认2" }, 
            { address: "https://dm.stardm.us.kg:443/87654321", name: "默认3" }, 
            { address: "https://danmu.14812910.xyz/87654321", name: "默认4" }, 
-           { address: "https://313236.xyz/87654321", name: "默认5" }
+           { address: "https://313236.xyz", name: "默认5" }
           ],
     autoPush: true
   },
  t4: {list: [
-    {name: "🍏98",
-      address: "https://98zy.vip/api.php/provide/vod/"},
     {name: "🍏360",
       address: "https://360zyzz.com/api.php/provide/vod"},
     {name: "🍏欧克",
       address: "https://api.okzyw.net/api.php/provide/vod"},
-    {name: "🍏星球",
-      address: "https://www.ysxq.cc/api.php/provide/vod"},
     {name: "🍏量子",
       address: "http://cj.lziapi.com/api.php/provide/vod/"},
     {name: "🍏百度",
@@ -145,7 +141,7 @@ var index_config_default = {
   {name: "🍊155", address: "https://155api.com/api.php/provide/vod"},
   {name: "🍊杏吧", address: "https://xingba111.com/api.php/provide/vod/"},
   {name: "🍊细胞", address: "https://www.xxibaozyw.com/api.php/provide/vod"},
-  {name: "🍊极品", address: "https://jipinvip1.com/api.php/provide/vod/"},
+  {name: "🍊极品", address: "https://jipinvip.com/api.php/provide/vod/"},
   {name: "🍊精东", address: "http://chujia.cc/api.php/provide/vod/from/m3u8/"},
   {name: "🍊滴滴", address: "https://api.ddapi.cc/api.php/provide/vod"},
   {name: "🍊色逼", address: "https://apilsbzy1.com/api.php/provide/vod"},
@@ -153,7 +149,7 @@ var index_config_default = {
   {name: "🍊小鸡", address: "https://api.xjzyapi.com/provide/vod"},
   {name: "🍊乐播", address: "https://lbapi9.com/api.php/provide/vod"},
   {name: "🍊番号", address: "http://fhapi9.com/api.php/provide/vod"},
-  {name: "🍊玉兔", address: "https://apiyutu.com/api.php/provide/vod"},
+  {name: "🍊红楼", address: "https://www.hlzy.store/api.php/provide/vod"},
   {name: "🍊森林", address: "http://slapibf.com/api.php/provide/vod"},
   {name: "🍊蝙蝠", address: "http://api.11bat.com/api.php/provide/vod/"},
   {name: "🍊越南", address: "https://vnzyz.com/api.php/provide/vod"},
