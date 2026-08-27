@@ -65,16 +65,15 @@ var index_config_default = {
            { address: "http://ecs.dysobo.cn:9321/87654321", name: "默认1" },
            { address: "http://47.107.188.112:6008/87654321", name: "默认2" }, 
            { address: "https://dm.stardm.us.kg:443/87654321", name: "默认3" }, 
-           { address: "https://danmu.14812910.xyz/87654321", name: "默认4" }, 
-           { address: "https://313236.xyz", name: "默认5" }
+           { address: "https://danmu.14812910.xyz/87654321", name: "默认4" }
           ],
     autoPush: true
   },
  t4: {list: [
+    {name: "🍏OK",
+      address: "https://api.okzyw.net/api.php/provide/vod"},
     {name: "🍏360",
       address: "https://360zyzz.com/api.php/provide/vod"},
-    {name: "🍏欧克",
-      address: "https://api.okzyw.net/api.php/provide/vod"},
     {name: "🍏量子",
       address: "http://cj.lziapi.com/api.php/provide/vod/"},
     {name: "🍏百度",
@@ -127,6 +126,8 @@ var index_config_default = {
       address: "https://cj.yayazy.net/api.php/provide/vod"},
     {name: "🍏猫眼",
       address: "https://api.maoyanapi.top/api.php/provide/vod"},
+    {name: "🍏星球🪜",
+      address: "https://www.ysxq.cc/api.php/provide/vod"},
     {name: "🍏优酷🪜",
       address: "https://api.ukuapi.com/api.php/provide/vod/"},
     {name: "🍏魔都🪜",
@@ -149,6 +150,7 @@ var index_config_default = {
   {name: "🍊小鸡", address: "https://api.xjzyapi.com/provide/vod"},
   {name: "🍊乐播", address: "https://lbapi9.com/api.php/provide/vod"},
   {name: "🍊番号", address: "http://fhapi9.com/api.php/provide/vod"},
+  {name: "🍊玉兔", address: "https://apiyutu.com/api.php/provide/vod/"},
   {name: "🍊红楼", address: "https://www.hlzy.store/api.php/provide/vod"},
   {name: "🍊森林", address: "http://slapibf.com/api.php/provide/vod"},
   {name: "🍊蝙蝠", address: "http://api.11bat.com/api.php/provide/vod/"},
