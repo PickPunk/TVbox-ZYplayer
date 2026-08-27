@@ -59,6 +59,13 @@
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "FC2",
+      "type": 0,
+      "url": "https://gh-proxy.org/raw.githubusercontent.com/PickPunk/TVbox-ZYplayer/refs/heads/main/FC2.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
       "name": "Short",
       "type": 0,
       "url": "https://gh-proxy.org/raw.githubusercontent.com/PickPunk/TVbox-ZYplayer/refs/heads/main/Short.m3u"
@@ -69,19 +76,19 @@
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://360zyzz.com/api.php/provide/vod",
-      "key": "360",
+      "api": "https://api.okzyw.net/api.php/provide/vod",
+      "key": "OK",
       "type": 1,
-      "name": "🍏360"
+      "name": "🍏OK"
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://api.okzyw.net/api.php/provide/vod",
-      "key": "欧克",
+      "api": "https://360zyzz.com/api.php/provide/vod",
+      "key": "360",
       "type": 1,
-      "name": "🍏欧克"
+      "name": "🍏360"
     },
     {
       "searchable": 1,
@@ -312,6 +319,24 @@
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "key": "猫眼",
+      "type": 1,
+      "name": "🍏猫眼"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.ysxq.cc/api.php/provide/vod",
+      "key": "星球",
+      "type": 1,
+      "name": "🍏星球🪜"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "api": "https://api.ukuapi.com/api.php/provide/vod/",
       "key": "优酷",
       "type": 1,
@@ -325,15 +350,6 @@
       "key": "魔都",
       "type": 1,
       "name": "🍏魔都🪜"
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://api.maoyanapi.top/api.php/provide/vod",
-      "key": "猫眼",
-      "type": 1,
-      "name": "🍏猫眼🪜"
     },
     {
       "searchable": 1,
@@ -469,6 +485,15 @@
       "key": "番号",
       "type": 1,
       "name": "🍊番号"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://apiyutu.com/api.php/provide/vod/",
+      "key": "玉兔",
+      "type": 1,
+      "name": "🍊玉兔"
     },
     {
       "searchable": 1,
