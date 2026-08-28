@@ -129,11 +129,11 @@ var index_config_default = {
     {name: "🍏优酷",
       address: "https://api.ukuapi.com/api.php/provide/vod/"},
     {name: "🍏爱坤",
-      address: "https://ikunzyapi.com/api.php/provide/vod"}
+      address: "https://ikunzyapi.com/api.php/provide/vod"},
     {name: "🍏魔都",
       address: "https://www.moduzy.com/api.php/provide/vod"},
     {name: "🍏星球🪜",
-      address: "https://www.ysxq.cc/api.php/provide/vod"},
+      address: "https://www.ysxq.cc/api.php/provide/vod"}
 ]},
   cms: {list: [
   {name: "🍊CK", address: "https://ckzy.me/api.php/provide/vod/"},
