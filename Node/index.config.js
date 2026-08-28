@@ -189,10 +189,6 @@ var index_config_default = {
     {
       name: "🎧听闻",
       server: "https://pan.ecve.cn/"
-    },
-    {
-      name: "💢repl",
-      server: "https://ali.liucn.repl.co"
     }
   ],
   color: [
