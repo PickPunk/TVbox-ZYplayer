@@ -38,20 +38,6 @@
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "name": "Twitch",
-      "type": 0,
-      "url": "https://twitch.445569.xyz/live.m3u"
-    },
-    {
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "name": "TikTok",
-      "type": 0,
-      "url": "https://tiktok.445569.xyz/live.m3u"
-    },
-    {
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
       "name": "Sex",
       "type": 0,
       "url": "https://gh-proxy.org/raw.githubusercontent.com/PickPunk/TVbox-ZYplayer/refs/heads/main/Sex.m3u"
