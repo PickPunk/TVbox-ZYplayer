@@ -52,6 +52,13 @@
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "name": "Porm",
+      "type": 0,
+      "url": "https://gh-proxy.org/raw.githubusercontent.com/PickPunk/TVbox-ZYplayer/refs/heads/main/Porm.m3u"
+    },
+    {
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
       "name": "Short",
       "type": 0,
       "url": "https://gh-proxy.org/raw.githubusercontent.com/PickPunk/TVbox-ZYplayer/refs/heads/main/Short.m3u"
