@@ -348,6 +348,33 @@
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
+      "api": "https://api.juliang.live/api/provide/vod/",
+      "key": "巨量",
+      "type": 1,
+      "name": "🍏巨量"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://mujiziyuan00.com/api.php/provide/vod/",
+      "key": "母鸡",
+      "type": 1,
+      "name": "🍏母鸡"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://ty.tyyszy5.com/api.php/provide/vod/",
+      "key": "天涯",
+      "type": 1,
+      "name": "🍏天涯"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "api": "https://www.ysxq.cc/api.php/provide/vod",
       "key": "星球",
       "type": 1,
@@ -384,10 +411,28 @@
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
+      "api": "https://jp98.vip/api.php/provide/vod/",
+      "key": "98",
+      "type": 1,
+      "name": "🍊98"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "api": "https://155api.com/api.php/provide/vod/",
       "key": "155",
       "type": 1,
       "name": "🍊155"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://yuanlib.com/api.php/provide/vod/",
+      "key": "元力",
+      "type": 1,
+      "name": "🍊元力"
     },
     {
       "searchable": 1,
