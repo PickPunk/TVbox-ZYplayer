@@ -23,42 +23,23 @@ __export(index_config_exports, {
 });
 module.exports = __toCommonJS(index_config_exports);
 var index_config_default = {
-  ali: {
-    token: "",
-    token280: "token280"
+  drpyS: {
+    config_url: "$config_url",
+    home_site: "$host/api/设置中心?pwd=Pwd-e319946a36315dd9",
+    enable_dspush: 1,
+    enable_home_site:0,
+    sniffer_rule: "http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a|mp3)\\?.*|http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a|mp3)|http((?!http).)*?video/tos*|http((?!http).)*?obj/tos*",
+    enable_hipy_sniffer: 0,
+    hipy_sniffer_url: "http://127.0.0.1:5708/sniffer?url=",
+    parse_count: 6,
+    // 最多显示多少条解析
+    parse_timeout: 5e3,
+    // 解析超时毫秒数
+    test_thread_proxy: "http://127.0.0.1:5759/proxy?thread=8&chunkSize=256&url=https://vdse.bdstatic.com//628ca08719cef5987ea2ae3c6f0d2386.mp4"
   },
-  quark: {
-    cookie: ""
-  },
-  uc: {
-    cookie: "cookie",
-    token: "token",
-    ut: "ut"
-  },
-  y115: {
-    cookie: ""
-  },
-  muou: {
-    url: ""
-  },
-  wogg: {
-    url: ""
-  },
-  leijing: {
-    url: ""
-  },
-  tgsou: {
-    tgPic: false,
-    count: 0,
+  ffm3u8: {
     url: "",
-    channelUsername: ""
-  },
-  tgchannel: {},
-  sites: {
-    list: []
-  },
-  pans: {
-    list: []
+    categories: []
   },
   danmu: {
     urls: [
@@ -68,9 +49,6 @@ var index_config_default = {
            { address: "https://danmu.14812910.xyz/87654321", name: "默认4" }
           ],
     autoPush: true
-  },
-  t4: {
-    list: []
   },
   cms: {list: [
     { name: "🍏OK", address: "https://api.okzyw.net/api.php/provide/vod" },
@@ -159,7 +137,8 @@ var index_config_default = {
   color: [
     {
       light: {
-        bg: "https://i2.100024.xyz/2024/01/13/pptcej.webp",
+        // bg: 'https://i2.100024.xyz/2024/01/13/pptcej.webp',
+        bg: "http://php.540734621.xyz/tcp/1.php",
         bgMask: "0x50ffffff",
         primary: "0xff446732",
         onPrimary: "0xffffffff",
@@ -193,7 +172,7 @@ var index_config_default = {
         surfaceTint: "0xff446732"
       },
       dark: {
-        bg: "https://i2.100024.xyz/2024/01/13/pptg3z.webp",
+        bg: "http://php.540734621.xyz/tcp/1.php",
         bgMask: "0x50000000",
         primary: "0xffaad291",
         onPrimary: "0xff173807",
@@ -229,7 +208,7 @@ var index_config_default = {
     },
     {
       light: {
-        bg: "https://i2.100024.xyz/2024/01/13/pi2rpw.webp",
+        bg: "http://php.540734621.xyz/tcp/1.php",
         bgMask: "0x50ffffff",
         primary: "0xff666014",
         onPrimary: "0xffffffff",
@@ -263,7 +242,7 @@ var index_config_default = {
         surfaceTint: "0xff666014"
       },
       dark: {
-        bg: "https://i2.100024.xyz/2024/01/13/pi2reo.webp",
+        bg: "http://php.540734621.xyz/tcp/1.php",
         bgMask: "0x50000000",
         primary: "0xffd1c973",
         onPrimary: "0xff353100",
@@ -299,7 +278,7 @@ var index_config_default = {
     },
     {
       light: {
-        bg: "https://i2.100024.xyz/2024/01/13/qrnuwt.webp",
+        bg: "http://php.540734621.xyz/tcp/1.php",
         bgMask: "0x50ffffff",
         primary: "0xFF2B6C00",
         onPrimary: "0xFFFFFFFF",
@@ -333,7 +312,7 @@ var index_config_default = {
         surfaceTint: "0xFF2B6C00"
       },
       dark: {
-        bg: "https://i2.100024.xyz/2024/01/13/qrc37o.webp",
+        bg: "http://php.540734621.xyz/tcp/1.php",
         bgMask: "0x50000000",
         primary: "0xFF8CDA60",
         onPrimary: "0xFF133800",
