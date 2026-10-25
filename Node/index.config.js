@@ -38,6 +38,9 @@ var index_config_default = {
   y115: {
     cookie: ""
   },
+  baidu: {
+    cookie: ""
+  },
   muou: {
     url: ""
   },
