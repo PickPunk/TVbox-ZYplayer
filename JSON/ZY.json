@@ -375,6 +375,33 @@
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
+      "api": "https://lovedan.net/api.php/provide/vod",
+      "key": "艾旦",
+      "type": 1,
+      "name": "🍏艾旦"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.changzhang.tv/api.php/provide/vod",
+      "key": "厂长",
+      "type": 1,
+      "name": "🍏厂长"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.yparse.com/api/json",
+      "key": "步步高",
+      "type": 1,
+      "name": "🍏步步高"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "api": "https://www.ysxq.cc/api.php/provide/vod",
       "key": "星球",
       "type": 1,
@@ -447,10 +474,10 @@
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://www.xxibaozyw.com/api.php/provide/vod",
-      "key": "细胞",
+      "api": "https://f-1.cc/api.php/provide/vod",
+      "key": "看看",
       "type": 1,
-      "name": "🍊细胞"
+      "name": "🍊看看"
     },
     {
       "searchable": 1,
@@ -537,10 +564,10 @@
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://www.hlzy.store/api.php/provide/vod",
-      "key": "红楼",
+      "api": "https://xyezy.com/api.php/provide/vod",
+      "key": "星夜",
       "type": 1,
-      "name": "🍊红楼"
+      "name": "🍊星夜"
     },
     {
       "searchable": 1,
@@ -586,15 +613,6 @@
       "key": "大奶",
       "type": 1,
       "name": "🍊大奶"
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://www.xiangjiaozyw.com/api.php/provide/vod/",
-      "key": "香蕉",
-      "type": 1,
-      "name": "🍊香蕉"
     },
     {
       "searchable": 1,
