@@ -328,19 +328,19 @@
       "isActive": true,
       "search": 1,
       "group": "影视",
-      "api": "https://api.yparse.com/api/json",
-      "key": "步步高",
+      "api": "https://www.ysxq.cc/api.php/provide/vod",
+      "key": "星球",
       "type": 1,
-      "name": "🍏步步高"
+      "name": "🍏星球"
     },
     {
       "isActive": true,
       "search": 1,
       "group": "影视",
-      "api": "https://www.ysxq.cc/api.php/provide/vod",
-      "key": "星球",
+      "api": "https://api.yparse.com/api/json",
+      "key": "步步高",
       "type": 1,
-      "name": "🍏星球🪜"
+      "name": "🍏步步高"
     },
     {
       "isActive": true,
@@ -616,6 +616,15 @@
       "isActive": true,
       "search": 1,
       "group": "18+",
+      "api": "https://fqzy.me//api.php/provide/vod/",
+      "key": "番茄",
+      "type": 1,
+      "name": "🍊番茄"
+    },
+    {
+      "isActive": true,
+      "search": 1,
+      "group": "18+",
       "api": "https://aosikazy4.com/api.php/provide/vod/",
       "key": "奥斯卡",
       "type": 1,
@@ -625,19 +634,10 @@
       "isActive": true,
       "search": 1,
       "group": "18+",
-      "api": "https://fqzy.me//api.php/provide/vod/",
-      "key": "番茄",
-      "type": 1,
-      "name": "🍊番茄🪜"
-    },
-    {
-      "isActive": true,
-      "search": 1,
-      "group": "18+",
       "api": "https://www.jingpinx.com//api.php/provide/vod/",
       "key": "精品",
       "type": 1,
-      "name": "🍊精品🪜"
+      "name": "🍊精品✈"
     },
     {
       "isActive": true,
@@ -646,7 +646,7 @@
       "api": "https://shayuapi.com/api.php/provide/vod/",
       "key": "鲨鱼",
       "type": 1,
-      "name": "🍊鲨鱼🪜"
+      "name": "🍊鲨鱼✈"
     },
     {
       "isActive": true,
@@ -655,7 +655,7 @@
       "api": "https://apilj.com/api.php/provide/vod/at/json/",
       "key": "辣椒",
       "type": 1,
-      "name": "🍊辣椒🪜"
+      "name": "🍊辣椒✈"
     },
     {
       "isActive": true,
@@ -664,7 +664,7 @@
       "api": "https://Naixxzy.com/api.php/provide/vod/",
       "key": "奶香",
       "type": 1,
-      "name": "🍊奶香🪜"
+      "name": "🍊奶香✈"
     }
   ],
   "tbl_iptv": [
