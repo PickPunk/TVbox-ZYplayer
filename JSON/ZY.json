@@ -690,6 +690,51 @@
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
+      "api": "https://www.kxgav.com/api/json.php",
+      "key": "白嫖",
+      "type": 1,
+      "name": "🍊白嫖"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.pgxdy.com/api/json.php",
+      "key": "黄油",
+      "type": 1,
+      "name": "🍊黄油"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.msnii.com/api/json.php",
+      "key": "美少女",
+      "type": 1,
+      "name": "🍊美少女"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.xrbsp.com/api/json.php",
+      "key": "淫水机",
+      "type": 1,
+      "name": "🍊淫水机"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.gdlsp.com/api/json.php",
+      "key": "香奶儿",
+      "type": 1,
+      "name": "🍊香奶儿"
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
       "api": "https://aosikazy4.com/api.php/provide/vod/",
       "key": "奥斯卡",
       "type": 1,
