@@ -1,18 +1,44 @@
-# .github/workflows/sync-workflow.yml
 name: Sync Files
+
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天 UTC 0 点运行一次（可根据需要调整）
-  workflow_dispatch:     # 允许手动触发
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout 你的仓库
         uses: actions/checkout@v4
-      
-      - name: Run Files Sync
-        uses: raven-actions/repo-files-sync@v0.1.0-rc.18
-        with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: 从上游拉取并同步
+        run: |
+          # 1. 克隆原仓库（如果你确定是 master 分支，把下面的 main 改成 master）
+          git clone --filter=blob:none --sparse -b main https://github.com/Darklessing/catvod.git upstream-temp
+          
+          cd upstream-temp
+          
+          # 【调试代码】：如果报错找不到文件，这行会把原仓库根目录的文件全列出来，让你看清楚
+          echo "====== 源仓库根目录文件列表 ======"
+          ls -la 
+          echo "=================================="
+
+          # 2. 尝试检出文件
+          git sparse-checkout set douer/index.js douer/index.js.md5
+          
+          # 3. 拷贝文件到你的仓库（自动创建 Node 目录）
+          mkdir -p ../Node
+          cp douer/index.js ../Node/index.js
+          cp douer/index.js.md5 ../Node/index.js.md5
+          
+          # 4. 返回主目录并清理
+          cd ..
+          rm -rf upstream-temp
+          
+          # 5. 提交并推送
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Node/
+          git diff --cached --quiet || git commit -m "chore: auto sync files"
+          git push
