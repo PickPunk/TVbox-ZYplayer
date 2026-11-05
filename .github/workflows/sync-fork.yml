@@ -5,6 +5,10 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
+# 👇 这两行非常关键！显式告诉 GitHub 需要写入权限
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -14,7 +18,6 @@ jobs:
 
       - name: 同步文件
         run: |
-          # 开启调试模式，在日志里打印正在执行的命令，方便排错
           set -x 
           
           UPSTREAM_OWNER="Darklessing"
@@ -23,13 +26,11 @@ jobs:
           SOURCE_FILE2="douer/index.js.md5"
           DEST_DIR="Node"
           
-          # 1. 浅克隆原仓库 (--depth 1 速度极快，默认自动跟随原仓库的默认分支，不用管 main 还是 master)
           echo "⬇️ 正在克隆上游仓库..."
           git clone --depth 1 https://github.com/${UPSTREAM_OWNER}/${UPSTREAM_REPO}.git upstream-temp || { echo "❌ 克隆失败，请检查仓库名是否正确或是否为公开仓库"; exit 1; }
 
           cd upstream-temp
 
-          # 2. 检查文件是否存在（这是为了避免后面 copy 报错）
           echo "🔍 正在检查源文件是否存在..."
           if [ ! -f "${SOURCE_FILE1}" ] || [ ! -f "${SOURCE_FILE2}" ]; then
             echo "❌ 找不到目标文件！"
@@ -39,17 +40,14 @@ jobs:
             exit 1
           fi
 
-          # 3. 拷贝文件
           echo "📦 正在拷贝文件..."
           cd ..
           mkdir -p ${DEST_DIR}
           cp upstream-temp/${SOURCE_FILE1} ${DEST_DIR}/index.js
           cp upstream-temp/${SOURCE_FILE2} ${DEST_DIR}/index.js.md5
 
-          # 4. 清理临时目录
           rm -rf upstream-temp
 
-          # 5. 提交并推送
           echo "🚀 正在提交更改..."
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -59,6 +57,7 @@ jobs:
             echo "✅ 文件没有变化，无需提交。"
           else
             git commit -m "chore: 自动同步特定文件"
+            # 推送代码
             git push
             echo "🎉 同步完成并已推送！"
           fi
