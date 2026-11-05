@@ -1,11 +1,10 @@
-name: Sync Specific Files
+name: Sync Files
 
 on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
-# 👇 这两行非常关键！显式告诉 GitHub 需要写入权限
 permissions:
   contents: write
 
@@ -13,51 +12,23 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 你的仓库
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: 同步文件
+      - name: 同步文件并推送
         run: |
-          set -x 
+          # 1. 浅克隆原仓库
+          git clone --depth 1 https://github.com/Darklessing/catvod.git temp-upstream
           
-          UPSTREAM_OWNER="Darklessing"
-          UPSTREAM_REPO="catvod"
-          SOURCE_FILE1="douer/index.js"
-          SOURCE_FILE2="douer/index.js.md5"
-          DEST_DIR="Node"
+          # 2. 拷贝文件到目标目录
+          mkdir -p Node
+          cp temp-upstream/douer/index.js Node/index.js
+          cp temp-upstream/douer/index.js.md5 Node/index.js.md5
           
-          echo "⬇️ 正在克隆上游仓库..."
-          git clone --depth 1 https://github.com/${UPSTREAM_OWNER}/${UPSTREAM_REPO}.git upstream-temp || { echo "❌ 克隆失败，请检查仓库名是否正确或是否为公开仓库"; exit 1; }
-
-          cd upstream-temp
-
-          echo "🔍 正在检查源文件是否存在..."
-          if [ ! -f "${SOURCE_FILE1}" ] || [ ! -f "${SOURCE_FILE2}" ]; then
-            echo "❌ 找不到目标文件！"
-            echo "当前上游仓库根目录下的文件/文件夹如下："
-            ls -la
-            echo "当前路径是：$(pwd)"
-            exit 1
-          fi
-
-          echo "📦 正在拷贝文件..."
-          cd ..
-          mkdir -p ${DEST_DIR}
-          cp upstream-temp/${SOURCE_FILE1} ${DEST_DIR}/index.js
-          cp upstream-temp/${SOURCE_FILE2} ${DEST_DIR}/index.js.md5
-
-          rm -rf upstream-temp
-
-          echo "🚀 正在提交更改..."
+          # 3. 清理临时文件
+          rm -rf temp-upstream
+          
+          # 4. 提交并推送（如果没有变化则跳过提交）
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add ${DEST_DIR}/
-          
-          if git diff --cached --quiet; then
-            echo "✅ 文件没有变化，无需提交。"
-          else
-            git commit -m "chore: 自动同步特定文件"
-            # 推送代码
-            git push
-            echo "🎉 同步完成并已推送！"
-          fi
+          git add Node/
+          git diff --staged --quiet || (git commit -m "Auto sync files" && git push)
