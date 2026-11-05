@@ -1,6 +1,6 @@
 # .github/sync.yml
-Darklessing/catvod
-- source: douer/index.js
-  dest: Node/index.js
-- source: douer/index.js.md5
-  dest: Node/index.js.md5
+Darklessing/catvod:
+  - source: douer/index.js
+    dest: Node/index.js
+  - source: douer/index.js.md5
+    dest: Node/index.js.md5
