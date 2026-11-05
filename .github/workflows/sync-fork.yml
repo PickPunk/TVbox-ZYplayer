@@ -2,69 +2,63 @@ name: Sync Specific Files
 
 on:
   schedule:
-    # 每天 UTC 时间 0 点（北京时间早上 8 点）执行一次。如需更频繁可自行调整。
     - cron: '0 0 * * *'
-  # 允许在 GitHub Actions 页面手动点击按钮触发
   workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      # 第一步：检出你自己的仓库（也就是运行这个 Action 的仓库）
       - name: Checkout 你的仓库
         uses: actions/checkout@v4
 
-      # 第二步：从上游仓库拉取文件并推送到你的仓库
       - name: 同步文件
         run: |
-          # ===== 配置区域（如需修改原仓库信息，改这里） =====
+          # 开启调试模式，在日志里打印正在执行的命令，方便排错
+          set -x 
+          
           UPSTREAM_OWNER="Darklessing"
           UPSTREAM_REPO="catvod"
-          UPSTREAM_BRANCH="main"  # 注意：如果原仓库默认分支是 master，请将这里改为 master
-          
           SOURCE_FILE1="douer/index.js"
           SOURCE_FILE2="douer/index.js.md5"
+          DEST_DIR="Node"
           
-          DEST_FILE1="Node/index.js"
-          DEST_FILE2="Node/index.js.md5"
-          # =================================================
-
-          echo "⬇️ 正在从上游拉取文件..."
-          # 1. 克隆上游仓库。使用 --no-checkout 只拉取元数据，速度极快
-          # 如果遇到网络问题或想强制覆盖，可以加上 -c core.autocrlf=false
-          git clone --filter=blob:none --no-checkout -b ${UPSTREAM_BRANCH} https://github.com/${UPSTREAM_OWNER}/${UPSTREAM_REPO}.git upstream-temp
+          # 1. 浅克隆原仓库 (--depth 1 速度极快，默认自动跟随原仓库的默认分支，不用管 main 还是 master)
+          echo "⬇️ 正在克隆上游仓库..."
+          git clone --depth 1 https://github.com/${UPSTREAM_OWNER}/${UPSTREAM_REPO}.git upstream-temp || { echo "❌ 克隆失败，请检查仓库名是否正确或是否为公开仓库"; exit 1; }
 
           cd upstream-temp
 
-          # 2. 核心步骤：直接检出（下载）所需的特定文件
-          # 如果原仓库没有这个文件，这步会报错退出
-          git checkout ${UPSTREAM_BRANCH} -- ${SOURCE_FILE1} ${SOURCE_FILE2}
+          # 2. 检查文件是否存在（这是为了避免后面 copy 报错）
+          echo "🔍 正在检查源文件是否存在..."
+          if [ ! -f "${SOURCE_FILE1}" ] || [ ! -f "${SOURCE_FILE2}" ]; then
+            echo "❌ 找不到目标文件！"
+            echo "当前上游仓库根目录下的文件/文件夹如下："
+            ls -la
+            echo "当前路径是：$(pwd)"
+            exit 1
+          fi
 
-          # 3. 拷贝到你自己的仓库中（会自动创建 Node 目录）
-          # 注意 ../ 是为了跳出 upstream-temp 目录，回到你的主工作区
-          echo "📦 正在拷贝文件到目标位置..."
-          mkdir -p ../$(dirname ${DEST_FILE1})
-          cp ${SOURCE_FILE1} ../${DEST_FILE1}
-          cp ${SOURCE_FILE2} ../${DEST_FILE2}
+          # 3. 拷贝文件
+          echo "📦 正在拷贝文件..."
+          cd ..
+          mkdir -p ${DEST_DIR}
+          cp upstream-temp/${SOURCE_FILE1} ${DEST_DIR}/index.js
+          cp upstream-temp/${SOURCE_FILE2} ${DEST_DIR}/index.js.md5
 
           # 4. 清理临时目录
-          cd ..
           rm -rf upstream-temp
 
-          # 5. 提交并推送更改
+          # 5. 提交并推送
           echo "🚀 正在提交更改..."
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ${DEST_DIR}/
           
-          # 将目标文件夹加入暂存区
-          git add Node/
-
-          # 检查是否有变更，如果没有变更则不提交（防止报错）
           if git diff --cached --quiet; then
-            echo "✅ 目标文件没有变化，无需提交。"
+            echo "✅ 文件没有变化，无需提交。"
           else
-            git commit -m "chore: 自动同步来自 ${UPSTREAM_OWNER}/${UPSTREAM_REPO} 的文件"
+            git commit -m "chore: 自动同步特定文件"
             git push
-            echo "✅ 同步完成并已推送！"
+            echo "🎉 同步完成并已推送！"
           fi
