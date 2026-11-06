@@ -23,42 +23,14 @@ __export(index_config_exports, {
 });
 module.exports = __toCommonJS(index_config_exports);
 var index_config_default = {
-  ali: {
-    token: "",
-    token280: "token280"
-  },
-  quark: {
-    cookie: ""
-  },
-  uc: {
-    cookie: "cookie",
-    token: "token",
-    ut: "ut"
-  },
-  y115: {
-    cookie: ""
-  },
-  muou: {
-    url: ""
-  },
-  wogg: {
-    url: ""
-  },
-  leijing: {
-    url: ""
-  },
-  tgsou: {
-    tgPic: false,
-    count: 0,
-    url: "",
-    channelUsername: ""
-  },
-  tgchannel: {},
-  sites: {
-    list: []
-  },
-  pans: {
-    list: []
+  customSpiders: {
+    enabled: true,
+    dir: "",
+    urls: [],
+    strict: false,
+    allowOverride: false,
+    factoryTimeoutMs: 1e4,
+    urlTimeoutMs: 1e4
   },
   danmu: {
     urls: [
@@ -68,9 +40,6 @@ var index_config_default = {
            { address: "https://danmu.14812910.xyz/87654321", name: "默认4" }
           ],
     autoPush: true
-  },
-  t4: {
-    list: []
   },
   cms: {list: [
     { name: "🍏OK", address: "https://api.okzyw.net/api.php/provide/vod" },
