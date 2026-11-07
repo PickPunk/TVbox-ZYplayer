@@ -2,7 +2,7 @@ name: Sync Files
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 permissions:
@@ -21,8 +21,8 @@ jobs:
           
           # 2. 拷贝文件到目标目录
           mkdir -p Node
-          cp temp-upstream/douer/index.js Node/index.js
-          cp temp-upstream/douer/index.js.md5 Node/index.js.md5
+          cp temp-upstream/niuer/index.js Node/index.js
+          cp temp-upstream/niuer/index.js.md5 Node/index.js.md5
           
           # 3. 清理临时文件
           rm -rf temp-upstream
