@@ -337,6 +337,15 @@
       "isActive": true,
       "search": 1,
       "group": "影视",
+      "api": "https://caiji.mgzyapi.com/api.php/provide/vod/",
+      "key": "芒果",
+      "type": 1,
+      "name": "🍏芒果"
+    },
+    {
+      "isActive": true,
+      "search": 1,
+      "group": "影视",
       "api": "https://api.yparse.com/api/json",
       "key": "步步高",
       "type": 1,
@@ -620,6 +629,15 @@
       "key": "番茄",
       "type": 1,
       "name": "🍊番茄"
+    },
+    {
+      "isActive": true,
+      "search": 1,
+      "group": "18+",
+      "api": "https://api.doyinapi.com/api.php/provide/vod/",
+      "key": "红楼",
+      "type": 1,
+      "name": "🍊红楼"
     },
     {
       "isActive": true,
