@@ -2,33 +2,66 @@ name: Sync Files
 
 on:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '0 12 * * *'   # UTC 12:00 = 北京时间 20:00
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# 同一时间只跑一个 sync，避免并发 push 互相打架
+concurrency:
+  group: sync-files
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0                    # rebase 需要完整历史
+          ref: ${{ github.ref_name }}       # 显式检出当前分支
 
       - name: 同步文件并推送
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
-          # 1. 浅克隆原仓库
+          set -euo pipefail
+
+          # 1. 浅克隆上游
           git clone --depth 1 https://github.com/Darklessing/catvod.git temp-upstream
-          
-          # 2. 拷贝文件到目标目录
+
+          # 2. 记录上游 commit 短 hash（写进 commit message，方便追溯）
+          UPSTREAM_SHA=$(git -C temp-upstream rev-parse --short HEAD)
+
+          # 3. 拷贝文件到目标目录（上游文件缺失会直接 fail，不会产生脏提交）
           mkdir -p Node
-          cp temp-upstream/douer/index.js Node/index.js
+          cp temp-upstream/douer/index.js     Node/index.js
           cp temp-upstream/douer/index.js.md5 Node/index.js.md5
-          
-          # 3. 清理临时文件
+
+          # 4. 清理临时文件
           rm -rf temp-upstream
-          
-          # 4. 提交并推送（如果没有变化则跳过提交）
-          git config user.name "github-actions[bot]"
+
+          # 5. 配置 git 身份
+          git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add Node/
-          git diff --staged --quiet || (git commit -m "Auto sync files" && git push)
+
+          # 6. 精确 stage 这两个文件（避免误提交 Node/ 下的其他改动）
+          git add Node/index.js Node/index.js.md5
+
+          # 7. 无变化直接跳过
+          if git diff --staged --quiet; then
+            echo "✅ 上游文件无变化，跳过提交与推送。"
+            exit 0
+          fi
+
+          # 8. 有变化 → commit
+          git commit -m "Auto sync files from upstream ${UPSTREAM_SHA}"
+
+          # 9. push 前先 rebase 到远端最新，降低 non-fast-forward 概率
+          git pull --rebase origin "${BRANCH}"
+
+          # 10. 显式指定目标分支推送
+          git push origin "HEAD:${BRANCH}"
+          echo "✅ 已同步并推送到 ${BRANCH}"
