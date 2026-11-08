@@ -23,99 +23,14 @@ __export(index_config_exports, {
 });
 module.exports = __toCommonJS(index_config_exports);
 var index_config_default = {
-  ali: {
-    token: "",
-    token280: "token280"
-  },
-  quark: {
-    cookie: ""
-  },
-  uc: {
-    cookie: "cookie",
-    token: "token",
-    refreshtoken: "refreshtoken",
-    ut: "ut"
-  },
-  baidu: {
-    cookie: "cookie"
-  },
-  wuming: {
-    cookie: ""
-  },
-  douban: {
-    extend: ""
-  },
-  y115: {
-    cookie: ""
-  },
-  muou: {
-    url: ""
-  },
-  wogg: {
-    url: ""
-  },
-  zhizhen: {
-    url: ""
-  },
-  duoduo: {
-    url: ""
-  },
-  huban: {
-    url: ""
-  },
-  erxiao: {
-    url: ""
-  },
-  guanying: {
-    url: ""
-  },
-  qwmkv: {
-    url: ""
-  },
-  qiwei: {
-    url: ""
-  },
-  jutou: {
-    url: ""
-  },
-  pan123ziyuan: {
-    cookie: ""
-  },
-  guangyazhenying: {
-    cookie: ""
-  },
-  panlian: {
-    account: "",
-    password: ""
-  },
-  leijing: {
-    url: ""
-  },
-  tgsou: {
-    pic: false,
-    count: 0,
-    url: "",
-    channelUsername: ""
-  },
-  tgchannel: {},
-  bili: {
-    categories: "",
-    cookie: ""
-  },
-  sites: {
-    list: []
-  },
-  pans: {
-    list: []
-  },
-  danmu: {
-    urls: [
-           { address: "http://ecs.dysobo.cn:9321/87654321", name: "默认1" },
-           { address: "http://47.107.188.112:6008/87654321", name: "默认2" }, 
-           { address: "https://dm.stardm.us.kg:443/87654321", name: "默认3" }, 
-           { address: "https://danmu.14812910.xyz/87654321", name: "默认4" }
-          ],
-    autoPush: true
+  customSpiders: {
+    enabled: true,
+    dir: "",
+    urls: [],
+    strict: false,
+    allowOverride: false,
+    factoryTimeoutMs: 1e4,
+    urlTimeoutMs: 1e4
   },
   cms: {list: [
     { name: "🍏OK", address: "https://api.okzyw.net/api.php/provide/vod" },
@@ -155,6 +70,7 @@ var index_config_default = {
     { name: "🍏艾旦", address: "https://lovedan.net/api.php/provide/vod" },
     { name: "🍏厂长", address: "https://api.changzhang.tv/api.php/provide/vod" },
     { name: "🍏星球", address: "https://www.ysxq.cc/api.php/provide/vod" },
+    { name: "🍏芒果", address: "https://caiji.mgzyapi.com/api.php/provide/vod/" },
     { name: "🍏步步高", address: "https://api.yparse.com/api/json" },
     { name: "🍊CK", address: "https://ckzy.me/api.php/provide/vod/" },
     { name: "🍊19", address: "https://19q.cc/api.php/provide/vod" },
@@ -187,6 +103,7 @@ var index_config_default = {
     { name: "🍊黄仓", address: "https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json" },
     { name: "🍊湿园", address: "https://xxavs.com/api.php/provide/vod/at/json" },
     { name: "🍊番茄", address: "https://fqzy.me//api.php/provide/vod/" },
+    { name: "🍊红楼", address: "https://api.doyinapi.com/api.php/provide/vod/" },
     { name: "🍊奥斯卡", address: "https://aosikazy4.com/api.php/provide/vod" },
     { name: "🍊精品✈", address: "https://www.jingpinx.com/api.php/provide/vod" },
     { name: "🍊辣椒✈", address: "http://lajiaozy.com/api.php/provide/vod" },
@@ -201,7 +118,7 @@ var index_config_default = {
   color: [
     {
       light: {
-        bg: "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/cefd4d3f5b8c5a66/photo_2025-08-01_11-09-06.jpg",
+        bg: "https://i2.100024.xyz/2024/01/13/pptcej.webp",
         bgMask: "0x50ffffff",
         primary: "0xff446732",
         onPrimary: "0xffffffff",
@@ -235,7 +152,7 @@ var index_config_default = {
         surfaceTint: "0xff446732"
       },
       dark: {
-        bg: "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/3885167c85e1c977/photo_2025-08-01_11-09-06 (2).jpg",
+        bg: "https://i2.100024.xyz/2024/01/13/pptg3z.webp",
         bgMask: "0x50000000",
         primary: "0xffaad291",
         onPrimary: "0xff173807",
@@ -271,7 +188,7 @@ var index_config_default = {
     },
     {
       light: {
-        bg: "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/cefd4d3f5b8c5a66/photo_2025-08-01_11-09-06.jpg",
+        bg: "https://i2.100024.xyz/2024/01/13/pi2rpw.webp",
         bgMask: "0x50ffffff",
         primary: "0xff666014",
         onPrimary: "0xffffffff",
@@ -305,7 +222,7 @@ var index_config_default = {
         surfaceTint: "0xff666014"
       },
       dark: {
-        bg: "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/3885167c85e1c977/photo_2025-08-01_11-09-06 (2).jpg",
+        bg: "https://i2.100024.xyz/2024/01/13/pi2reo.webp",
         bgMask: "0x50000000",
         primary: "0xffd1c973",
         onPrimary: "0xff353100",
@@ -341,7 +258,7 @@ var index_config_default = {
     },
     {
       light: {
-        bg: "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/66537cf7d0225c8e/photo_2025-08-01_16-02-38.jpg",
+        bg: "https://i2.100024.xyz/2024/01/13/qrnuwt.webp",
         bgMask: "0x50ffffff",
         primary: "0xFF2B6C00",
         onPrimary: "0xFFFFFFFF",
@@ -375,7 +292,7 @@ var index_config_default = {
         surfaceTint: "0xFF2B6C00"
       },
       dark: {
-        bg: "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/d026f7c9a068661a/photo_2025-08-01_16-02-39.jpg",
+        bg: "https://i2.100024.xyz/2024/01/13/qrc37o.webp",
         bgMask: "0x50000000",
         primary: "0xFF8CDA60",
         onPrimary: "0xFF133800",
