@@ -45,13 +45,6 @@
     {
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "name": "FC2",
-      "type": 0,
-      "url": "https://gh-proxy.org/raw.githubusercontent.com/PickPunk/TVbox-ZYplayer/refs/heads/main/M3U/FC2.m3u"
-    },
-    {
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
       "name": "Porm",
       "type": 0,
       "url": "https://gh-proxy.org/raw.githubusercontent.com/PickPunk/TVbox-ZYplayer/refs/heads/main/M3U/Porm.m3u"
