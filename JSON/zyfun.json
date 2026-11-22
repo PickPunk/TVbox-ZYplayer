@@ -735,14 +735,6 @@
       "isActive": true
     },
     {
-      "name": "FC2",
-      "url": "https://gh-proxy.org/raw.githubusercontent.com/PickPunk/TVbox-ZYplayer/refs/heads/main/M3U/FC2.m3u",
-      "type": "remote",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "isActive": true
-    },
-    {
       "name": "Porm",
       "url": "https://gh-proxy.org/raw.githubusercontent.com/PickPunk/TVbox-ZYplayer/refs/heads/main/M3U/Porm.m3u",
       "type": "remote",
